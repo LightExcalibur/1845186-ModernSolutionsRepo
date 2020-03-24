@@ -25,7 +25,3 @@ Function Bamboozle([string] $path = ".")
     Write-Host -ForegroundColor Red "every file that starts with a(n) {$($alphabet)} to totally roger roger you!"
     Get-Childitem -File -Path $path *$alphabet* | Remove-Item -WhatIf
 }
-KillThatProcess
-Bamboozle
-
-#<a href="nameofscript" download> Text of the link </a>
